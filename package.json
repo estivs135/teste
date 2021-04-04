@@ -1,22 +1,8 @@
 {
-  "name": "teste",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "json-server --watch db.json --port 3001 --delay=1000"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/estivs135/teste.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/estivs135/teste/issues"
-  },
-  "homepage": "https://github.com/estivs135/teste#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "json-server": "^0.16.1"
   }
 }
