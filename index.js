@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 3001
 app.get('/', (req,res)=>{
-  res.send('servidor pronto ok w')
+  res.send('servidor pronto ok')
 })
 app.get('/api/products', (req, res) => {
   res.send([
