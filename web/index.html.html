@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2021 by anonymous (http://jsbin.com/fozicajaqi/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+.container{
+  align-items: center;
+}
+.menu{
+  background-color: black;
+  color: White;
+  display: flex;
+  justify-content: center;  
+}
+.menu ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-transform: uppercase;  
+}
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+.menu a:hover{
+  color: blue;
+  text-decoration: none;
+}
+.lay{
+  text-align: center;
+}
+footer{
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+.sec{
+  text-align: center
+}
+
+.btn{
+  
+}
+
+
+</style>
+</head>
+<body>
+<script src="https://fb.me/react-with-addons-15.1.0.js"></script>
+<script src="https://fb.me/react-dom-15.1.0.js"></script>
+  
+    <div class="container">
+      <header>
+        <div class="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+             <li><a href="#">sobre</a></li>
+              <li><a href="#">serviços</a></li>
+                <li><a href="#">contato</a></li>
+          </ul>
+        
+        </div>
+        <button class="btn" onclick="trocar()">aperte
+        </button>
+        <div class="lay"><h1>Ola</h1:</div>
+      </header>
+      <section class="sec">
+        A legal este layout........<br>
+        mais textos
+        <div id="res"></div>
+      </section>
+      
+          <footer>
+            Todos os direitos reservados
+          </footer>
+    </div>
+ 
+<script id="jsbin-javascript">
+let sau = 'olaaaaa galeraaaaaa';
+
+const res = document.getElementById('res');
+
+
+
+function trocar (){
+  alert('oiiiiii');
+  res.innerHTML = `<h1>${sau} como vão?</h1>` ;
+};
+
+
+
+</script>
+</body>
+</html>
