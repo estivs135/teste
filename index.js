@@ -1,10 +1,11 @@
 const express = require('express')
 const app = express()
 const port = 3001
-
-app.get('/', (req, res) => {
-  res.send(
-     [
+app.get('/', (req,res)=>{
+  res.send('servidor pronto')
+})
+app.get('/api/products', (req, res) => {
+  res.send([
       {
         _id: '1',
         name: 'Nike Slim Shirt',
@@ -77,9 +78,7 @@ app.get('/', (req, res) => {
         numReviews: 15,
         description: 'high quality product',
       }
-    ]
-  
-  )
+    ])
 })
 
 app.listen(port, () => {
