@@ -8,7 +8,7 @@ app.get('/api/products', (req, res) => {
   res.send([
       {
         _id: '1',
-        name: 'Nike Slim Shirt',
+        name: 'Nike Slim Shirto',
         category: 'Shirts',
         image: '/images/p1.jpg',
         price: 120,
